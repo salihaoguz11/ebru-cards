@@ -1,17 +1,12 @@
-import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 
-function Cards() {
+function Cards(props) {
+  const { img, name } = props;
   return (
-    <Card style={{ width: "18rem" }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+    <Card className="rounded-2 m-auto player-card ebru-card">
+      <Card.Img variant="top" src={img} className="images" />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <Card.Title className="text-center text-primary">{name}</Card.Title>
       </Card.Body>
     </Card>
   );

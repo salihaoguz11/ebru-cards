@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Limelight&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ffbbb3;
+}
+
+.header {
+  background-color: #3c5473;
+  color: antiquewhite;
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Limelight", cursive;
+}
+
+.footer {
+  height: 5rem;
+  background-color: #94a69f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+}
+.ebru-card {
+  height: 400px;
+  max-width: 280px;
+  min-width: 230px;
+}
+.ebru-card:hover {
+  box-shadow: 3px 3px 20px 5px rgba(0, 0, 0, 0.5);
+}
+
+.images {
+  transition: transform 0.2s;
+  height: 350px;
+}
+.ebru-card:hover .images {
+  transform: scale(0.95);
+}
