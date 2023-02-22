@@ -13,8 +13,8 @@ function Cards(props) {
       {showImage ? (
         <Card.Img variant="top" src={img} className="images" />
       ) : (
-        <ul className="m-auto">
-          <li className="h-5 mt-5 list-unstyled list">{desc}</li>
+        <ul className="m-auto list">
+          <li className="h-5 mt-5 list-unstyled ">{desc}</li>
         </ul>
       )}
 
