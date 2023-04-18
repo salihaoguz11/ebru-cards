@@ -11,7 +11,7 @@ Project aims to create a Ebru Cards App.
 
 EBRU CARDS
 |
-|----readme.md         # Given to the students (Definition of the project)
+|----readme.md         
 SOLUTION
 ├── public
 │     └── index.html
