@@ -32,7 +32,7 @@ SOLUTION
 ##Expected Outcome
 
 
-![water marbling art.gif](water marbling art.gif)
+![water-marbling-art-gif](water-marbling-art.gif)
 
 
 ### Objective
