@@ -31,7 +31,8 @@ SOLUTION
 ```
 ##Expected Outcome
 `
-![Project Ebru Snapshot](water marbling art.gif)
+
+![water marbling art.gif](water marbling art.gif)
 
 
 ### Objective
