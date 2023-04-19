@@ -30,7 +30,7 @@ SOLUTION
 └── yarn.lock
 ```
 ##Expected Outcome
-`
+
 
 ![water marbling art.gif](water marbling art.gif)
 
