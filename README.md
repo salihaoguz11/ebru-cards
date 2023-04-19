@@ -30,6 +30,7 @@ SOLUTION
 └── yarn.lock
 
 ##Expected Outcome
+![Project Ebru Snapshot](water marbling art.gif)
 
 
 ### Objective
